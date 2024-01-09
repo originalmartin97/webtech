@@ -1,0 +1,27 @@
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(9, 30px);
+    grid-gap: 2px;
+    margin-top: 20px;
+  }
+
+  .h, .l, .d {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+  }
+
+  .d {
+    background-color: #f59b42;
+  }
+  
+  .l {
+    background-color: #fadbbb;
+  }
+
+  img {
+    max-width: 25px;
+    height: auto;
+  }
