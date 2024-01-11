@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <title>Autós napló</title>
     <style>
-      body {
-    font-family: "RubikGemstones-Regular", sans-serif;
-    text-align: center;
-}
+        body {
+            font-family: "RubikGemstones-Regular", sans-serif;
+            text-align: center;
+        }
 
 
-h1 {
-    font-family: "RubikGemstones-Regular", sans-serif;
-}
+        h1 {
+            font-family: "RubikGemstones-Regular", sans-serif;
+        }
 
 
-#autonaplo-form {
-    max-width: 12cm;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        #autonaplo-form {
+            max-width: 12cm;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
 
-label {
-    margin: 10px 0;
-    font-family: "RubikGemstones-Regular", sans-serif;
-}
+        label {
+            margin: 10px 0;
+            font-family: "RubikGemstones-Regular", sans-serif;
+        }
 
 
-input, select {
-    margin: 10px 0;
-    padding: 5px;
-    font-family: "RubikGemstones-Regular", sans-serif;
-}
+        input,
+        select {
+            margin: 10px 0;
+            padding: 5px;
+            font-family: "RubikGemstones-Regular", sans-serif;
+        }
 
 
-input[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-family: "RubikGemstones-Regular", sans-serif;
-}
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-family: "RubikGemstones-Regular", sans-serif;
+        }
 
 
-input[type="submit"]:hover {
-    background-color: #00b327;
-}
+        input[type="submit"]:hover {
+            background-color: #00b327;
+        }
     </style>
 </head>
+
 <body>
     <h1>Autós napló</h1>
     <form id="autonaplo-form" action="#" method="post">
         <label for="bejegyzesek">Bejegyzések:</label>
         <select id="bejegyzesek" name="bejegyzesek" size="6">
-          
+
         </select>
         <br>
-        
-        
+
+
         <label for="km-allas">Km-számláló állása:</label>
         <input type="number" id="km-allas" name="km-allas" min="0" step="1" required>
         <br>
@@ -108,11 +111,11 @@ input[type="submit"]:hover {
             var megnevezes = document.getElementById("megnevezes").value;
             var kmAllas = document.getElementById("km-allas").value;
             var datum = document.getElementById("datum").value;
-           
+
 
 
             // Készítsd el az új bejegyzést a megadott adatokkal és fűzd hozzá a listához
-            var newEntry = megnevezes + " - " + kmAllas+ "km" + " - " + datum;
+            var newEntry = megnevezes + " - " + kmAllas + "km" + " - " + datum;
             var option = document.createElement("option");
             option.text = newEntry;
             bejegyzesekSelect.add(option);
@@ -127,4 +130,5 @@ input[type="submit"]:hover {
 
 
 </body>
+
 </html>
