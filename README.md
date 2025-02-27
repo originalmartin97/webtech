@@ -1,7 +1,24 @@
-This project was made for the solely purpose of excercising web tecjnologies for studies as a CSE student.
-
-It contains three little tasks for a particular semester.
+# This project was made for the solely purpose of excercising web tecjnologies for studies as a CSE student.
+___
+## Contains three little tasks for a particular semester.
 These are
-- chess game
-- auto repair webpage
-- 
+- **"autos naplo"** --> car journal
+- **"latin negyzet"** --> latin square
+- **"sakktabla"** --> chessboard
+
+You can read about them inside of their representative directories.
+___
+Requirements:
+- html
+- css
+- javascript
+- browser
+___
+Usage:
+
+- get the whole library and its contents of your desire
+- load/open up the index.html 
+
+If you have any question(s) please contact me.
+___
+"Future together"
