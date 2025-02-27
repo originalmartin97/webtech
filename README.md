@@ -1,3 +1,4 @@
+!!context language of this repository is in hungarian!!
 # This project was made for the solely purpose of excercising the basics of web technologies for studies as a BSc CSE student.
 ## Contains three little tasks for a particular semester.
 These are
