@@ -1,6 +1,7 @@
-!!context language of this repository is in hungarian!!
+**!!context language in hungarian!!**
+
 # This project was made for the solely purpose of excercising the basics of web technologies for studies as a BSc CSE student.
-## Contains three little tasks for a particular semester.
+## Contains three little tasks and an elementary set of q&a for a particular semester.
 These are
 - **"autos naplo"** --> car journal
 - **"latin negyzet"** --> latin square
