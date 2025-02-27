@@ -1,4 +1,4 @@
-# This project was made for the solely purpose of excercising web tecjnologies for studies as a CSE student.
+# This project was made for the solely purpose of excercising web technologies for studies as a CSE student.
 ## Contains three little tasks for a particular semester.
 These are
 - **"autos naplo"** --> car journal
@@ -17,6 +17,7 @@ Usage:
 
 - get the whole library and its contents of your desire
 - load/open up the index.html 
+
 
 If you have any question(s) please contact me.
 ___
