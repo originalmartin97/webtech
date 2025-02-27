@@ -1,1 +1,5 @@
-something about adding to journal of a car?
+- It requires user input
+- Takes the name of the journal point
+- Can add date
+- Can add km state
+- Registers journal entry point
