@@ -1,5 +1,4 @@
 # This project was made for the solely purpose of excercising web tecjnologies for studies as a CSE student.
-___
 ## Contains three little tasks for a particular semester.
 These are
 - **"autos naplo"** --> car journal
